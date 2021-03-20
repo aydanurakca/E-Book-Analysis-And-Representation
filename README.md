@@ -28,4 +28,5 @@ Then, findCommonWords() method is used to compare dictionaries and finds common 
 
 Dictionary data structure is mostly used. Dictionaries have key and value pairs. That feature of dictionaries helped me to store the amount of each word and made me reach them easily.
 
-
+#LICENCE
+MIT LICENCE
