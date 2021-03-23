@@ -2,7 +2,7 @@
 
 # Introduction
 
-  E-books are getting more popular day by day. This project was about E-books. The frequencies of the words of the e-books on the wikibooks.org were examined and the most common words in the book were examined. While this study was being carried out, words that did not mean anything by themselves, called stop words, were not included in the study, as their amount could be really high. Later, two e-books were examined, and the multi-frequency words that were common in both and the distinct words found separately.
+  E-books are getting more popular day by day. This project was about E-books. The frequencies of the words of the e-books on the *wikibooks.org* were examined and the most common words in the book were examined. While this study was being carried out, words that did not mean anything by themselves, called stop words, were not included in the study, as their amount could be really high. Later, two e-books were examined, and the multi-frequency words that were common in both and the distinct words found separately.
 
   When the application is executed, a menu appears on the console screen from which the user decides whether they want to analyze a single book or two books. After the user gives the name of the book as input, the book, if available, is taken from the Wikibooks website and saved in a text file. Then, as a result of the necessary analysis, the requested information is displayed.
 
