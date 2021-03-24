@@ -20,7 +20,7 @@ def main():
                 print("Number is taken 20 as a default value.")
                 num = "20"
             num = int(num) #
-            book = book.rstrip() #if they is a whitespace in input (which makes input wrong)
+            book = book.rstrip() #if there is a whitespace in input (which makes input wrong)
             result = createBook(book)
             if(result == ""):
                 continue
@@ -34,7 +34,7 @@ def main():
             
             print("BOOK 1: {0}\n".format(book))
             print("{0:3}\t{1:12}\t{2:8}".format("NO", "WORD", "FREQ_1"))
-            for i in range(num): #compaing the keys' values and finding the max value
+            for i in range(num): #comparing the keys' values and finding the max value
                 maximum = 0
                 word = ""
                 for key in dictionary:
@@ -82,7 +82,7 @@ def main():
             print("BOOK 2: {0}".format(book2))
             print("COMMON WORDS")
             print("{0:3}\t{1:12}\t{2:8}\t{3:8}\t{4:8}".format("NO", "WORD", "FREQ_1", "FREQ_2", "FREQ_SUM"))
-            for i in range(num): #compaing the keys' values and finding the max value
+            for i in range(num): #comparing the keys' values and finding the max value
                 maximum = 0
                 word = ""
                 for key in common:
@@ -99,7 +99,7 @@ def main():
             print("DISTINCT WORDS\n")
             print("{0:3}\t{1:12}\t{2:8}".format("NO", "WORD", "FREQ_1"))
             
-            for i in range(num): #compaing the keys' values and finding the max value
+            for i in range(num): #comparing the keys' values and finding the max value
                 maximum = 0
                 word = ""
                 for key in dict1_distincts:
@@ -112,7 +112,7 @@ def main():
             print("\nBOOK 2: {0}\n".format(book2))
             print("DISTINCT WORDS\n")
             print("{0:3}\t{1:12}\t{2:8}".format("NO", "WORD", "FREQ_2"))
-            for i in range(num): #compaing the keys' values and finding the max value
+            for i in range(num): #comparing the keys' values and finding the max value
                 maximum = 0
                 word = ""
                 for key in dict2_distincts:
