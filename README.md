@@ -16,7 +16,7 @@
 
   File operations are used to read and write on files. The result that we get from web scrapping (the content of the e-book) is then written into a file. After all file operations, we need to close the files.  encoding='utf-8' was important, because the result was only writeable to utf-8 files. 
 
-  For analysis, the stop words must have been discarded. 'clearText()' method clears the text that has stop words. All stop words, numerals, punctuations and letters were discarded from the whole text. I added them into a list and if a key from the dictionary is on that list I marked them to not to use. The text becomes ready to analyze. The returned dictionary from clearText() method has no stop words and all the values are the amounts of the keys.
+  For analysis, the stop words must have been discarded. clearText() method clears the text that has stop words. All stop words, numerals, punctuations and letters were discarded from the whole text. I added them into a list and if a key from the dictionary is on that list I marked them to not to use. The text becomes ready to analyze. The returned dictionary from clearText() method has no stop words and all the values are the amounts of the keys.
 
   After that, with for loop, I compare all of the values in the dictionary and find the top ones. If there is a given amount, we take top X, but the default value for X is 20.
 
